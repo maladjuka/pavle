@@ -1,0 +1,531 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=DM+Serif+Text:ital@0;1&family=Forum&family=Katibeh&family=Lobster&family=M+PLUS+Code+Latin&family=Merienda&family=Open+Sans:ital,wght@0,500;1,600&family=Original+Surfer&family=Passion+One&family=Sora&display=swap');
+header{ 
+
+    width: 100%;
+    height: 4rem;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: 'DM Serif Text', serif;
+font-weight: bold;
+background-color:  rgba(163,23,0,255);
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+}
+.logo-section{
+height: 4rem;
+display: flex;
+justify-content: space-between;
+}
+.contact{
+    height: 4rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+    cursor: pointer;
+
+
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.contact img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+
+
+.logo{
+    width: 18rem;
+    height: 4rem;
+    
+}
+
+nav{
+    width:80%;
+    height: 4rem;
+    padding-left: 20%;
+   
+
+}
+nav ul{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+li{
+    list-style: none;
+height: 4rem;
+align-items: center;
+
+    
+}
+nav a{
+    height: 4rem;
+    width: 8rem;
+display: flex;
+justify-content: center;
+align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 8px 3px 16px rgba(229,229,255,0.93);}
+.active{
+    background-color:  rgba(192, 57, 43);}
+    a:hover{
+      color: black;
+    }
+    .active:hover{color:white;}
+
+    .pre-loader{
+        width: 100%;
+        height: 35rem;
+        background-image: linear-gradient(rgba(143, 133, 133, 0.8), rgba(117, 111, 111, 0.8)), url("images/law-1200x560.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+ 
+
+    .info{
+        width: 80%;
+        
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        
+    }
+    .info {
+        -webkit-animation-name: slideOutLeft;
+        animation-name: slideOutLeft;
+        animation-duration: 3s;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes slideOutLeft {
+        0% {
+        transform: translateX(-100%);
+        }
+        100% {
+        visibility: hidden;
+        transform: translateX(0);
+        }
+        }
+        @keyframes slideOutLeft {
+        0% {
+        transform: translateX(-100%);
+        }
+        100% {
+        transform: translateX(0);
+        }
+        } 
+      
+   
+
+    h4{
+        font-size: 40px;
+        padding-bottom: 5%;
+    }
+    .info p{
+        font-size: 25px;
+        padding-bottom: 5%;
+    }
+
+    #btn-about{
+        width: 7rem;
+        height: 3rem;
+        background-color:rgba(163,23,0,255);
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 10%;
+        margin: 0 auto;
+    }
+
+    #btn-about:hover{
+
+
+        background-color:rgb(143, 51, 36);
+        cursor: pointer;
+  
+    }
+
+
+.work{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 25rem;
+
+}
+
+    .work img{
+        width: 70px;
+        height: 70px;
+        margin: 0 auto;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+    .commercial-law{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 25px;
+        height: 25rem;
+    }
+    .commercial-law:nth-child(odd){
+        background: rgb(229,232,232);
+        background: linear-gradient(184deg, rgba(229,232,232,1) 0%, rgba(255,255,255,1) 100%);        
+    }
+
+
+    h5{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    .ethics{
+        width: 100%;
+        height: 100vh;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+    
+    }
+    .background{
+        width: 50%;
+        height: 100vh;
+        background-image: url(images/ethics.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .text{
+        width: 50%;
+        height: 100vh;
+        background-color:  rgb(185, 32, 32);
+        color: white;
+
+    }
+    .text p{
+        font-size: 15px;
+font-weight: bold;
+padding: 10%;
+    }
+    .text h4{
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+.schooling{
+    background: rgb(229,232,232);
+    background: linear-gradient(184deg, rgba(229,232,232,1) 0%, rgba(255,255,255,1) 100%); 
+    width: 100%;
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.about-pavle{  
+    width: 50%;
+    height: 100vh;
+
+    color: rgb(0, 0, 0);}
+   .about-pavle p{
+        font-size: 15px;
+font-weight: bold;
+padding: 10%;
+width: 100%;
+    }
+    .about-pavle h4{
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+      
+    .avatar{
+        width: 50%;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .advices{
+        background-image: linear-gradient(rgba(143, 133, 133, 0.8), rgba(117, 111, 111, 0.8)), url("images/55312-no-such-thing-as-justice.jpg");
+        width: 100%;
+        height: 100vh;
+        
+        display: flex;
+        flex-direction: column;
+align-items: flex-end;
+padding-top: 10%;
+ 
+    }
+   
+
+  form{
+      width: 40%;
+      height: 20%;
+    padding-right: 10%;
+   
+    }
+
+    form div{
+        display: flex;
+    }
+
+        input{
+            width: 18rem;
+            height: 3rem;
+margin: 10px;        }
+
+        #question{
+            height: 10rem;
+            width: 95%;
+            margin: 10px;
+
+        }
+        form button{
+            width: 5rem;
+            height: 2rem;
+            border-radius: 15%;
+            overflow: hidden;
+            background-color: brown;
+            color: rgb(0, 0, 0);
+            padding-left: 5px;
+            margin-left: 10px;
+        }
+
+        footer  {
+            width: 100%;
+            
+
+        }
+         .contact2{
+            width: 100%;
+            height: 7rem;
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 10px;
+            background: rgb(229,232,232);
+            background: linear-gradient(184deg, rgba(229,232,232,1) 0%, rgba(255,255,255,1) 100%);        
+            font-weight: bold;
+        }
+
+      
+        iframe{
+            width: 100%;
+            height: 20rem;
+        }
+        footer .logo{ background: rgb(229,232,232);
+            background: linear-gradient(184deg, rgba(229,232,232,1) 0%, rgba(255,255,255,1) 100%);        }
+
+
+
+.hide{
+    display: none;
+}
+            .credits{
+                background-color:  rgba(163,23,0,255);
+                color:white;
+                
+            }
+            .credits a{
+                color: white;
+                text-decoration: none;
+            }
+            #dropdown{
+                text-align: center;
+                padding-top: 15%;
+            }
+
+            @media only screen and (max-width: 786px) {
+
+                body{
+                    width: 100%;
+                }
+               .logo-section{
+                   width: 100%;
+                   display: flex;
+                   flex-direction: column;
+                   height: auto;
+               }
+               .contact{
+                   width: 100%;
+                   height: auto;
+                   display: flex;
+                   flex-direction: column;
+                   align-items: stretch;
+               }
+               .contact div {
+                   display: flex;
+               }
+               header{ 
+position: relative;
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+            
+            }
+            header{
+                position: absolute;
+            }
+            #ham{
+                width: 25px;
+                height: 25px;
+                display: block;
+                position: absolute;
+                left: 43%;
+               
+            }
+         
+            nav{
+                align-items: center;
+                display: flex;
+                position: relative;
+            }
+            nav ul{
+                display: none;
+            }
+           
+
+            .work{
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                width: 100%;
+padding: 0;
+margin: 0;
+
+}
+form{
+    width: 100%;
+}
+            .work p{
+                display: none;
+            }
+            .work div{
+                width: 100%;
+                height: 9rem;
+            }
+            .ethics{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: auto;
+            }
+            .background{
+                width: 100%;
+                height: 5rem;
+            }
+
+            .text{
+                width: 100%;
+                height: auto;
+            }
+.schooling {
+    display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: auto;
+    
+
+        
+}
+.avatar{
+    width: 100%;
+    height: auto;
+}
+
+.profile{
+    padding-top: 25px;
+    width: 10rem;
+    height: 10rem;
+}
+
+.about-pavle{
+    width: 100%;
+    height: auto;
+}
+
+.advices{
+ 
+    width: 100%;
+    height: auto;
+ 
+align-items:flex-start;
+padding-top: 10%;
+
+}
+form button{
+    margin-bottom: 10px;
+}
+#question{
+    height: 10rem;
+    width: 22rem;
+    margin: 10px;
+
+}
+
+#dropdown{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 48px;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+
+    z-index: 1;
+    
+}
+#dropdown a{
+color: white;
+text-decoration: none;
+
+
+}
+
+              }
+    

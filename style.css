@@ -444,7 +444,6 @@ form{
                 input{
     width: 7rem;
 }
-                textarea{width:10rem;}
             .work p{
                 display: none;
             }
@@ -506,7 +505,7 @@ form button{
 }
 #question{
     height: 10rem;
-    width: 22rem;
+    width: 20rem;
     margin: 10px;
 
 }

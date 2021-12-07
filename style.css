@@ -444,6 +444,7 @@ form{
                 input{
     width: 7rem;
 }
+                textarea{width:80%}
             .work p{
                 display: none;
             }
